@@ -52,7 +52,6 @@ async function main() {
     }
   }
 
-  // Safety check
   if (!references.length || !references[0].content) {
     console.log(" No valid reference content. Stopping.");
     return;
@@ -70,7 +69,7 @@ async function main() {
   console.log(rewritten.substring(0, 500));
 
 
-  console.log("\n🎉 DONE");
+  console.log("\nDONE");
 }
 
 main();
